@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-img {
-  height: 500px;
+body {
+  background-color: rgb(43, 41, 41);
 }
 
 form {
