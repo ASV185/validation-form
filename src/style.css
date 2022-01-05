@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(43, 42, 42);
+}
+
+form {
+  background-color: rgb(19, 18, 18);
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 100px;
+  position: static;
+}
+
+h1 {
+  background-color: rgb(121, 48, 121);
+  color: #fff;
+  border-radius: 5px;
+}
+
+label {
+  color: rgb(121, 48, 121);
+  font-weight: bold;
+}
+
+input {
+  padding: 7px;
+  border-radius: 5px;
+}
+
+footer {
+  color: rgb(121, 48, 121);
+}
+
+span {
+  color: #000;
+}
+
+#button {
+  background-color: (121, 48, 121);
+  color: #fff;
+}
