@@ -1,5 +1,11 @@
-body {
-  background-color: rgb(43, 41, 41);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 1400px;
+  height: auto;
 }
 
 form {
@@ -17,6 +23,7 @@ h1 {
   background-color: rgb(121, 48, 121);
   color: #fff;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 label {
