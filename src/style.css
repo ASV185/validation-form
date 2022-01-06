@@ -37,10 +37,27 @@ input {
 }
 
 footer {
-  color: rgb(121, 48, 121);
+  color: #000;
   position: absolute;
   bottom: 50px;
   left: 450px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+footer a {
+  color: #fff;
+  font-weight: 700px;
+  text-decoration: none;
+}
+
+footer span {
+  font-size: 17px;
+}
+
+footer strong {
+  font-weight: 900px;
+  color: #fff;
 }
 
 #button {
