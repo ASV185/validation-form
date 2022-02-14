@@ -5,7 +5,8 @@
 
 img {
   width: 1400px;
-  height: auto;
+  height: 1000px;
+  position: fixed;
 }
 
 form {
@@ -14,7 +15,7 @@ form {
   border-radius: 5px;
   padding: 70px;
   margin: 100px;
-  position: absolute;
+  position: fixed;
   top: 10px;
   left: 300px;
 }
@@ -38,11 +39,11 @@ input {
 
 footer {
   color: #000;
-  position: absolute;
-  bottom: 50px;
-  left: 450px;
+  position: relative;
   font-weight: bolder;
   font-size: 20px;
+  top: 500px;
+  left: 450px;
 }
 
 footer a {
@@ -67,14 +68,16 @@ footer strong {
 
 @media (max-width: 800px) {
   footer {
-    position: static;
-    left: 400px;
-    bottom: 1900px;
+    position: relative;
+    left: 300px;
+    top: 570px;
   }
-
-  span {
-    position: static;
-    left: 350px;
-    bottom: 1875px;
+  img {
+    position: fixed;
+    height: 1090px;
+  }
+  form {
+    left: 215px;
+    top: 10px;
   }
 }
