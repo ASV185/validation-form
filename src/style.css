@@ -3,81 +3,42 @@
   padding: 0;
 }
 
-img {
-  width: 1400px;
-  height: 1000px;
-  position: fixed;
+.app-wrapper {
+  background-color: #000000;
 }
 
-form {
-  background-color: rgb(19, 18, 18);
-  text-align: center;
-  border-radius: 5px;
-  padding: 70px;
-  margin: 100px;
-  position: fixed;
-  top: 10px;
-  left: 300px;
+img {
+  width: 600px;
+  padding: 50px;
+}
+
+#navbar-brand {
+  font-family: "Koulen", cursive;
+  color: #e50914;
+  font-size: 2rem;
+}
+
+#mainNav {
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  font-size: 1.1rem;
 }
 
 h1 {
-  background-color: rgb(121, 48, 121);
-  color: #fff;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
-
-label {
-  color: rgb(121, 48, 121);
-  font-weight: bold;
-}
-
-input {
-  padding: 7px;
-  border-radius: 5px;
-}
-
-footer {
+  font-family: "Lato", sans-serif;
   color: #000;
-  position: relative;
-  font-weight: bolder;
-  font-size: 20px;
-  top: 500px;
-  left: 450px;
+  font-size: 1.5rem;
 }
 
-footer a {
+form {
+  background-color: #fff;
+  padding: 50px;
+  margin: 50px;
+  border-radius: 5px;
+}
+
+.form-group {
+  width: 75%;
+  font-family: "Lato", sans-serif;
   color: #fff;
-  font-weight: 700px;
-  text-decoration: none;
-}
-
-footer span {
-  font-size: 17px;
-}
-
-footer strong {
-  font-weight: 900px;
-  color: #fff;
-}
-
-#button {
-  background-color: rgb(121, 48, 121);
-  color: #fff;
-}
-
-@media (max-width: 800px) {
-  footer {
-    position: relative;
-    left: 300px;
-    top: 570px;
-  }
-  img {
-    position: fixed;
-    height: 1090px;
-  }
-  form {
-    left: 215px;
-    top: 10px;
-  }
 }
