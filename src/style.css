@@ -3,6 +3,24 @@
   padding: 0;
 }
 
+#devices {
+  background-color: #000;
+  padding: 5rem;
+}
+
+#device {
+  background-color: #fff;
+  margin: 2rem;
+  border-radius: 0.25rem;
+}
+
+#device-type li {
+  list-style: none;
+  font-family: "Lato", sans-serif;
+  color:#000;
+  font-weight:600;
+}
+
 .app-wrapper {
   background-color: #000000;
 }
@@ -10,11 +28,6 @@
 img {
   width: 600px;
   padding: 50px;
-}
-
-.navbar.scrolled {
-  background-color: rgba(0,0,0);
-  transition: background 500ms;
 }
 
 #navbar-brand {
