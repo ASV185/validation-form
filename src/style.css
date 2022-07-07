@@ -3,6 +3,28 @@
   padding: 0;
 }
 
+h1 {
+  font-family: "Lato", sans-serif;
+  color: #000;
+  font-size: 2rem;
+}
+
+
+#devices h2 {
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  font-size: 1.9rem;
+  text-align: center;
+}
+
+#devices h3 {
+  font-size: "Lato", sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 1rem;
+}
+
 #devices {
   background-color: #000;
   padding: 5rem;
@@ -42,12 +64,6 @@ img {
   font-size: 1.1rem;
 }
 
-h1 {
-  font-family: "Lato", sans-serif;
-  color: #000;
-  font-size: 1.5rem;
-}
-
 form {
   background-color: #fff;
   padding: 50px;
@@ -60,3 +76,5 @@ form {
   font-family: "Lato", sans-serif;
   color: #fff;
 }
+
+
