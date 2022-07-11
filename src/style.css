@@ -7,10 +7,31 @@ body {
   background-color: #000;
 }
 
-h1 {
-  font-family: "Lato", sans-serif;
-  color: #000;
+.container-fluid h1 {
+  font-family: "Roboto Slab", serif;
+  color: #fff;
   font-size: 2rem;
+  margin: auto;
+  width:85%;
+  margin-top:1.5rem;
+}
+
+.container-fluid h1:hover {
+  color:#e4313a;
+  cursor: pointer;
+}
+
+.container-fluid h2 {
+  font-family: "Roboto Slab", serif;
+  color:#fff;
+  font-size: 1.1rem;
+  margin:auto;
+  width:85%;
+}
+
+.container-fluid h2:hover {
+  color:#e4313a;
+  cursor: pointer;
 }
 
 #devices button {
@@ -86,9 +107,17 @@ h1 {
 }
 
 img {
-  width: 40rem;
-  padding: 2.5rem;
+  width: 42rem;
+  padding: 3rem;
   border-radius: 0.5rem;
+}
+
+.red-bttn {
+  background-color: #e50914;
+  color:#fff;
+  border:none;
+  border-radius: 0.5rem;
+  box-shadow: 0.2rem 0.2rem 0.25rem #000;
 }
 
 #navbar-brand {
