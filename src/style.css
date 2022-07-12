@@ -7,30 +7,32 @@ body {
   background-color: #000;
 }
 
+.red-text {
+  color:#e4313a;
+}
+
 .container-fluid h1 {
   font-family: "Roboto Slab", serif;
   color: #fff;
-  font-size: 2rem;
+  font-size: 3rem;
   margin: auto;
   width:85%;
   margin-top:1.5rem;
 }
 
 .container-fluid h1:hover {
-  color:#e4313a;
   cursor: pointer;
 }
 
-.container-fluid h2 {
+.container-fluid h3 {
   font-family: "Roboto Slab", serif;
   color:#fff;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin:auto;
   width:85%;
 }
 
-.container-fluid h2:hover {
-  color:#e4313a;
+.container-fluid h3:hover {
   cursor: pointer;
 }
 
@@ -67,7 +69,6 @@ body {
 }
 
 #devices h2:hover {
-  color:#e4313a;
   cursor: pointer;
 }
 
@@ -76,11 +77,9 @@ body {
   color: #fff;
   font-size: 1.2rem;
   text-align: center;
-  margin: 1rem;
 }
 
 #devices h3:hover {
-  color:#e4313a;
   cursor: pointer;
 }
 
