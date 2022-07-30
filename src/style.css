@@ -11,6 +11,9 @@ body {
   color:#e4313a;
 }
 
+ul {
+  list-style: none;
+}
 
  h1 {
   font-family: "Roboto Slab", serif;
@@ -93,7 +96,7 @@ h3:hover {
 #device {
   background-color: #fff;
   margin: 2rem;
-  border-radius: 0.25rem;
+  border-radius: 0.25em;
 }
 
 #device:hover {
@@ -156,4 +159,16 @@ form {
   width: 85%;
   font-family: "Roboto Slab", serif;
   color: #fff;
+}
+
+#bottom-navbar {
+  background: #e50914;
+  padding-bottom:5rem;
+  padding-top: 2rem;
+}
+#bottom-navbar li a {
+  text-decoration: none;
+  color:#fff;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.9rem;
 }
