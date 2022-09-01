@@ -8,20 +8,20 @@ body {
 }
 
 .red-text {
-  color:#e4313a;
+  color: #e4313a;
 }
 
 ul {
   list-style: none;
 }
 
- h1 {
+h1 {
   font-family: "Roboto Slab", serif;
   color: #fff;
   font-size: 3rem;
   margin: auto;
-  width:85%;
-  margin-top:1.5rem;
+  width: 85%;
+  margin-top: 1.5rem;
 }
 
 h1:hover {
@@ -30,37 +30,36 @@ h1:hover {
 
 h3 {
   font-family: "Roboto Slab", serif;
-  color:#fff;
+  color: #fff;
   font-size: 1.2rem;
-  margin:auto;
-  width:85%;
+  margin: auto;
+  width: 85%;
 }
 
 h3:hover {
   cursor: pointer;
 }
 
-
 #devices button {
   display: block;
   font-family: "Lato", sans-serif;
   text-decoration: none;
-  color:#fff;
+  color: #fff;
   background-color: #000;
   border: 2px solid white;
   text-transform: uppercase;
   border-radius: 1.5em;
   padding: 1.25em 2.75em;
   font-size: 1.025rem;
-  font-weight:500;
+  font-weight: 500;
   transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
 }
 
 #devices button:hover {
-  border-color:#e50914;
-  color:#fff;
+  border-color: #e50914;
+  color: #fff;
   box-shadow: 0 0.5rem 0.75rem -0.4rem #e50914;
-  transform:translateY(-0.25rem);
+  transform: translateY(-0.25rem);
   cursor: pointer;
 }
 
@@ -70,7 +69,7 @@ h3:hover {
   text-shadow: 0 0.5rem 0.75 -0.4rem #e4313a;
   font-size: 1.9rem;
   text-align: center;
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 
 #devices h2:hover {
@@ -101,16 +100,15 @@ h3:hover {
 
 #device:hover {
   background-color: #ff4646;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 #device-type li {
   list-style: none;
   font-family: "Lato", sans-serif;
-  color:#000;
-  font-weight:600;
+  color: #000;
+  font-weight: 600;
 }
-
 
 .app-wrapper {
   background-color: #000000;
@@ -124,8 +122,8 @@ img {
 
 .red-bttn {
   background-color: #e50914;
-  color:#fff;
-  border:none;
+  color: #fff;
+  border: none;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.2rem 0.25rem #000;
 }
@@ -152,7 +150,7 @@ form {
   padding: 50px;
   margin: 50px;
   border-radius: 5px;
-  color:rgb(49, 46, 46);
+  color: rgb(49, 46, 46);
 }
 
 .form-group {
@@ -163,17 +161,30 @@ form {
 
 #bottom-navbar {
   background: #e50914;
-  padding-bottom:1rem;
+  padding-bottom: 1rem;
   padding-top: 2rem;
 }
 #bottom-navbar li a {
   text-decoration: none;
-  color:#fff;
+  color: #fff;
   font-family: "Roboto Slab", serif;
   font-size: 0.9rem;
 }
 
 .social-media {
-  background-color:#e50914;
-  padding:0;
+  background-color: #e50914;
+  padding: 0;
+}
+
+.open-sourced {
+  background-color: #e50914;
+  color: #fff;
+}
+
+.open-sourced a {
+  text-decoration: none;
+}
+
+footer ul {
+  margin-bottom: 0;
 }
