@@ -1,5 +1,4 @@
 # validation-form
-This is a Sign In form that was created with HTML & CSS.
 
 ![Screenshot 2023-01-20 123541](https://user-images.githubusercontent.com/74805696/213790813-b581c228-10c1-48e0-9b6b-e48cd45fb79e.jpg)
 ![Screenshot 2023-01-20 123622](https://user-images.githubusercontent.com/74805696/213790833-aa2442b4-67fe-42c3-9541-04fb689a654a.jpg)
